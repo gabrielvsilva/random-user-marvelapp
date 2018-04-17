@@ -1,0 +1,32 @@
+<body class="">
+<header>
+</header>
+
+<div class="frame card_offset">
+
+  <button type="button" ng-click="pageHome()" class="btn btn-default btn-circle btn-lg"><i class="glyphicon glyphicon-chevron-left"></i></button>
+
+  <div class="card">
+    <div class="details">
+      <div class="user_photo horizontal_center" id="user_photo">
+        <img ng-src="{{profile.picture.large}}">
+      </div>
+      <p id="user_title">{{user_title}}</p>
+      <p id="user_value">{{user_value}}</p>
+    </div>
+
+    <br>
+    <ul class="values_list horizontal_center" id="values_list">
+      <ul class="fa-ul">
+        <li><a href=""><span class="glyphicon icon-size-profile glyphicon-user" ng-mouseover="glyphiconUser(profile)"></span></a></li>
+        <li><a href=""><span class="glyphicon icon-size-profile glyphicon-envelope" ng-mouseover="glyphiconEnvelope(profile)"></span></a></li>
+        <li><a href=""><span class="glyphicon icon-size-profile glyphicon-calendar" ng-mouseover="glyphiconCalendar(profile)"></span></a></li>
+        <li><a href=""><span class="glyphicon icon-size-profile glyphicon-map-marker" ng-mouseover="glyphiconMapMarker(profile)"></span></a></li>
+        <li><a href=""><span class="glyphicon icon-size-profile glyphicon-earphone" ng-mouseover="glyphiconEarPhone(profile)"></span></a></li>
+        <li><a href=""><span class="glyphicon icon-size-profile glyphicon-eye-open" ng-mouseover="glyphiconKeys(profile)"></span></a></li>
+      </ul>
+    </ul>
+  </div>
+</div>
+</body>
+</html>
